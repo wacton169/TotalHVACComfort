@@ -17,11 +17,11 @@
 <body>
   <header class="site-header">
     <div class="container">
-      <a class="brand" href="#">
+      <a class="brand" href="#top" aria-label="Total HVAC Comfort home">
         <img class="logo" src="images/logo.svg" alt="Total HVAC Comfort logo" />
         <span>Total HVAC Comfort</span>
       </a>
-      <nav class="nav">
+      <nav class="nav" aria-label="Main navigation">
         <a href="#services">Services</a>
         <a href="#why">Why Us</a>
         <a href="#areas">Service Area</a>
@@ -30,144 +30,125 @@
     </div>
   </header>
 
-  <section class="hero">
-    <div class="container hero-grid">
-      <div>
-        <h1>Fast, Reliable Heating & Cooling</h1>
-        <p>Repairs, maintenance, and inspections for homes and light commercial. Licensed, insured, and local to Flint, MI.</p>
-        <div class="cta-row">
-          <a class="btn" href="#contact">Request Service</a>
-          <a class="btn btn-outline" href="tel:+18100000000">Call: (810) 000‑0000</a>
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <h1>Fast, Reliable Heating & Cooling</h1>
+          <p>Repairs, maintenance, and inspections for homes and light commercial. Licensed, insured, and local to Flint, MI.</p>
+          <div class="cta-row">
+            <a class="btn" href="#contact">Request Service</a>
+            <a class="btn btn-outline" href="tel:+18100000000">Call: (810) 000‑0000</a>
+          </div>
+          <ul class="trust-badges">
+            <li>24/7 Emergency Available</li>
+            <li>Upfront, Honest Pricing</li>
+            <li>5‑Star Service</li>
+          </ul>
         </div>
-        <ul class="trust-badges">
-          <li>24/7 Emergency Available</li>
-          <li>Upfront, Honest Pricing</li>
-          <li>5‑Star Service</li>
+        <div class="hero-image">
+          <img src="images/hero.jpg" alt="Technician servicing an HVAC unit" />
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <h2>HVAC & Home Services</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>AC Repair & Tune‑Ups</h3>
+            <p>Diagnostics, refrigerant issues, capacitor/fan replacement, seasonal maintenance.</p>
+            <p class="price">Starting at $99</p>
+          </article>
+          <article class="card">
+            <h3>Furnace Repair</h3>
+            <p>Ignition, blower motors, thermostat issues, heat exchanger checks, safety testing.</p>
+            <p class="price">Starting at $99</p>
+          </article>
+          <article class="card">
+            <h3>HVAC Inspections</h3>
+            <p>Full system evaluation with photos and written report—ideal for home sales and rentals.</p>
+            <p class="price">Flat $149</p>
+          </article>
+          <article class="card">
+            <h3>Duct & Indoor Air Quality</h3>
+            <p>Filter changes, duct inspections, IAQ recommendations, humidity/ventilation checks.</p>
+          </article>
+          <article class="card">
+            <h3>Water Heater (Std./Tankless)</h3>
+            <p>Installations, maintenance, and emergency replacement.</p>
+          </article>
+          <article class="card">
+            <h3>Handyman Services</h3>
+            <p>Minor electrical, plumbing, drywall, fixtures, and preventative home care.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="why" class="section alt">
+      <div class="container">
+        <h2>Why Choose Total HVAC Comfort</h2>
+        <ul class="why-grid">
+          <li><strong>Local & Trusted:</strong> Flint‑area pros focused on honesty and quality.</li>
+          <li><strong>Transparent Pricing:</strong> Quotes before work begins—no surprises.</li>
+          <li><strong>Fast Scheduling:</strong> Same‑day/next‑day availability.</li>
+          <li><strong>Maintenance Plans:</strong> Keep systems efficient and extend lifespan.</li>
         </ul>
       </div>
-      <div class="hero-image">
-        <img src="images/hero.jpg" alt="HVAC technician working on condenser" />
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="services" class="section">
-    <div class="container">
-      <h2>HVAC & Home Services</h2>
-      <div class="cards">
-        <article class="card">
-          <h3>AC Repair & Tune‑Ups</h3>
-          <p>Diagnostics, refrigerant issues, capacitor/fan replacement, seasonal maintenance.</p>
-          <p class="price">Starting at $99</p>
-        </article>
-        <article class="card">
-          <h3>Furnace Repair</h3>
-          <p>Ignition, blower motors, thermostat issues, heat exchanger checks, safety testing.</p>
-          <p class="price">Starting at $99</p>
-        </article>
-        <article class="card">
-          <h3>HVAC Inspections</h3>
-          <p>Full system evaluation with photos and written report—ideal for home sales and rentals.</p>
-          <p class="price">Flat $149</p>
-        </article>
-        <article class="card">
-          <h3>Duct & Indoor Air Quality</h3>
-          <p>Filter changes, duct inspections, IAQ recommendations, humidity/ventilation checks.</p>
-        </article>
-        <article class="card">
-          <h3>Water Heater (Std./Tankless)</h3>
-          <p>Installations, maintenance, and emergency replacement.</p>
-        </article>
-        <article class="card">
-          <h3>Handyman Services</h3>
-          <p>Minor electrical, plumbing, drywall, fixtures, and preventative home care.</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section id="why" class="section alt">
-    <div class="container">
-      <h2>Why Choose Total HVAC Comfort</h2>
-      <ul class="why-grid">
-        <li><strong>Local & Trusted:</strong> Flint‑area pros focused on honesty and quality.</li>
-        <li><strong>Transparent Pricing:</strong> Quotes before work begins—no surprises.</li>
-        <li><strong>Fast Scheduling:</strong> Same‑day/next‑day availability.</li>
-        <li><strong>Maintenance Plans:</strong> Keep systems efficient and extend lifespan.</li>
-      </ul>
-    </div>
-  </section>
-
-  <section id="areas" class="section">
-    <div class="container">
-      <h2>Service Area</h2>
-      <p>Flint, Burton, Grand Blanc, Swartz Creek, Flushing, and nearby Mid‑Michigan communities.</p>
-      <div class="map-embed">
-        <iframe
-          src="https://www.openstreetmap.org/export/embed.html?bbox=-83.83%2C42.87%2C-83.53%2C43.13&layer=mapnik"
-          style="width:100%;height:320px;border:0;border-radius:12px"
-          title="Service area map">
-        </iframe>
-      </div>
-    </div>
-  </section>
-
-  <section id="contact" class="section alt">
-    <div class="container">
-      <h2>Request Service or Estimate</h2>
-      <div class="contact-grid">
-        <!-- Simple no-backend form via Formspree (free).
-             Create a form at https://formspree.io and replace the action URL below. -->
-        <form class="form" action="https://formspree.io/f/your-form-id" method="POST">
-          <label>Full Name*
-            <input type="text" name="name" required />
-          </label>
-          <label>Phone*
-            <input type="tel" name="phone" required />
-          </label>
-          <label>Email
-            <input type="email" name="email" />
-          </label>
-          <label>Service Needed*
-            <select name="service" required>
-              <option value="">Choose…</option>
-              <option>AC Repair</option>
-              <option>Furnace Repair</option>
-              <option>Inspection</option>
-              <option>Duct/IAQ</option>
-              <option>Water Heater</option>
-              <option>Handyman</option>
-            </select>
-          </label>
-          <label>Details
-            <textarea name="details" rows="5" placeholder="Tell us the issue or preferred time."></textarea>
-          </label>
-          <button class="btn" type="submit">Send Request</button>
-          <p class="small">We’ll reply within business hours. For emergencies, call
-            <a href="tel:+18100000000">(810) 000‑0000</a>.
-          </p>
-        </form>
-
-        <div class="card contact-card">
-          <h3>Contact</h3>
-          <p><strong>Phone:</strong> <a href="tel:+18100000000">(810) 000‑0000</a></p>
-          <p><strong>Email:</strong> <a href="mailto:service@totalhvaccomfort.com">service@totalhvaccomfort.com</a></p>
-          <p><strong>Hours:</strong> Mon–Sat 8am–6pm • Emergency 24/7</p>
-          <h3>Book Online</h3>
-          <p><a href="https://book.squareup.com/appointments" target="_blank" rel="noopener">Schedule with Square Appointments</a></p>
+    <section id="areas" class="section">
+      <div class="container">
+        <h2>Service Area</h2>
+        <p>Flint, Burton, Grand Blanc, Swartz Creek, Flushing, and nearby Mid‑Michigan communities.</p>
+        <div class="map-embed">
+          <iframe
+            title="Service area map"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=-83.83%2C42.87%2C-83.53%2C43.13&layer=mapnik"
+            style="width:100%; height:320px; border:0; border-radius:12px;">
+          </iframe>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <p>© <span id="year"></span> Total HVAC Comfort. All rights reserved.</p>
-      <p>Licensed & Insured • Flint, MI</p>
-    </div>
-  </footer>
+    <section id="contact" class="section alt">
+      <div class="container">
+        <h2>Request Service or Estimate</h2>
+        <div class="contact-grid">
+          <!-- Formspree (free): create a form at formspree.io and replace the action URL below -->
+          <form class="form" action="https://formspree.io/f/your-form-id" method="POST">
+            <label>Full Name*
+              <input type="text" name="name" required />
+            </label>
+            <label>Phone*
+              <input type="tel" name="phone" required />
+            </label>
+            <label>Email
+              <input type="email" name="email" />
+            </label>
+            <label>Service Needed*
+              <select name="service" required>
+                <option value="">Choose…</option>
+                <option>AC Repair</option>
+                <option>Furnace Repair</option>
+                <option>Inspection</option>
+                <option>Duct/IAQ</option>
+                <option>Water Heater</option>
+                <option>Handyman</option>
+              </select>
+            </label>
+            <label>Details
+              <textarea name="details" rows="5" placeholder="Tell us the issue or preferred time."></textarea>
+            </label>
+            <button class="btn" type="submit">Send Request</button>
+            <p class="small">We’ll reply within business hours. For emergencies, call
+              <a href="tel:+18100000000">(810) 000‑0000</a>.
+            </p>
+          </form>
 
-  <!-- Site JS -->
-  <script src="assets/script.js"></script>
-</body>
-</html>
+          <div class="card contact-card">
+            <h3>Contact</h3>
+            <p><strong>Phone:</strong> <a href="tel:+18100000000">(810) 000‑0000</a></p>
+            <p><strong>Email:</strong> <a href="mailto:service@totalhvaccomfort.com">service@totalhvaccomfort.com</a></p>
